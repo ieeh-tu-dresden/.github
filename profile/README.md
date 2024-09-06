@@ -4,19 +4,28 @@ SPDX-FileCopyrightText: Contributors to the IEEH TU Dresden software project
 SPDX-License-Identifier: MPL-2.0
 -->
 
-# IEEH TU Dresden Software
+# Software by researchers of TU Dresden / IEEH
 
 The [`Institute of Electrical Power Systems and High Voltage Engineering - TU Dresden`](https://tu-dresden.de/ing/elektrotechnik/ieeh?set_language=en) is one of the leading German higher education research institutes in the field of power systems.
 
-In the following, one finds an overview of (open source) software libraries with respect to power systems developed by researcher of the institute.
+Please find below an overview of (open source) software libraries with respect to power systems developed by researcher of the institute.
 
-
+### Power System Data Model
 [Power System Data Model](https://github.com/ieeh-tu-dresden/power-system-data-model) is intended to describe electrical power systems. It provides a hierarchical structure/schema to describe unique entity relations as well as parameter sets.
 It is available at [PyPI repository](https://pypi.org/project/ieeh-power-system-data-model/).
 
-[PowerFactory Tools](https://github.com/ieeh-tu-dresden/powerfactory-tools) is intended to use for an external usage ('engine mode') of the power flow calculation program [DIgSILENT PowerFactory](https://www.digsilent.de/de/powerfactory.html). Therefore, the Python-PowerFactory-API, provided by the company, is utilized. It is available at [PyPI repository](https://pypi.org/project/ieeh-powerfactory-tools/).
+Please have a look at the `example` sections in the repositories.
+
+### PowerFactory Tools
+[PowerFactory Tools](https://github.com/ieeh-tu-dresden/powerfactory-tools) is intended for an external usage ('engine mode') of the power flow calculation program [DIgSILENT PowerFactory](https://www.digsilent.de/de/powerfactory.html). Therefore, the Python-PowerFactory-API, provided by the company, is utilized. 
+It is available at [PyPI repository](https://pypi.org/project/ieeh-powerfactory-tools/).
 
 Please have a look at the `example` sections in the repositories. 
+
+### Power System Technology Models
+[Pyramecium Technology Models](https://github.com/sasanjac/pyramecium-technology-models) are intended to create multi-energy power time series for different technologies in steady-state simulations of cellular energy systems. 
+It is mainly driven and published under the namespace of [Sasan Jacob Rasti](https://github.com/sasanjac).
+It is available at [PyPI repository](https://pypi.org/project/pyramecium-technology-models/).
 
 ## License
 

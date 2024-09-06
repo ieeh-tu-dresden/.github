@@ -42,14 +42,14 @@ This project follows the following [Code of Conduct](CODE_OF_CONDUCT.md).
 ## Style Guide
 
 For Python code we use the pipeline to automatically check the formatting.
-We use `black` and `ruff` to check Python code.
+We use `ruff` to check Python code.
 If the code format is not complying, the pipeline will fail and the pull request will be blocked.
 
 ### Python
 
 This project uses the PEP 8 Style Guide for Python Code. For all details about the various conventions please refer to [PEP 8](https://www.python.org/dev/peps/pep-0008).
 
-Tip: Use [black](https://github.com/psf/black) to automatically format your Python code to conform to the PEP 8 style guide.
+Tip: Use [ruff](https://docs.astral.sh/ruff/) to automatically format your Python code to conform to the PEP 8 style guide.
 
 Furthermore, the following conventions apply:
 
@@ -108,7 +108,6 @@ The goal is to make sure, that each commit will pass the quality checks in the g
 
 You can manually run checks whenever you like:
 ```bash
-black .
 ruff check .
 mypy .
 ```
